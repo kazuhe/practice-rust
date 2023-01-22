@@ -5,10 +5,10 @@
 - rustup: Rust のバージョンと関連するツールを管理する
   - `rustup update`: Rust を最新版へ更新する
   - `rustup self uninstall`: Rust と rustup をアンインストールする
-- Cargo: Rust のビルドシステム兼パッケージマネージャ
-### Cargo
+- [Cargo](https://github.com/rust-lang/cargo): Rust のビルドシステム兼パッケージマネージャ
+- [clippy](https://github.com/rust-lang/rust-clippy): よくある間違いを見つけて Rust のコードを改善するためのリンター
 
-The Cargo Book: https://doc.rust-lang.org/cargo/
+### Cargo
 
 - `cargo new`: プロジェクトを作成する
 - `cargo build`: プロジェクトをビルドする
@@ -16,7 +16,7 @@ The Cargo Book: https://doc.rust-lang.org/cargo/
 - `cargo run`: プロジェクトのビルドと実行を 1 ステップで行う
 - `cargo check`: バイナリを生成せずにプロジェクトをビルドしてエラーがないか確認する
 
-Cargo は、ビルドの成果物をコードと同じディレクトリに保存するのではなく、`target/debug` ディレクトリに格納する
+Cargo はビルドの成果物をコードと同じディレクトリに保存するのではなく、`target/debug` ディレクトリに格納する。
 
 ## お作法
 
